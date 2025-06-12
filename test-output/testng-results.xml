@@ -1,17 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="19" failed="2" skipped="0">
+<testng-results ignored="0" total="14" passed="12" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-11T23:13:29 EDT" name="Suite" finished-at="2025-06-11T23:13:36 EDT" duration-ms="7027">
+  <suite started-at="2025-06-12T15:12:49 EDT" name="Suite" finished-at="2025-06-12T15:12:55 EDT" duration-ms="6250">
     <groups>
     </groups>
-    <test started-at="2025-06-11T23:13:29 EDT" name="Test" finished-at="2025-06-11T23:13:36 EDT" duration-ms="7027">
+    <test started-at="2025-06-12T15:12:49 EDT" name="Test" finished-at="2025-06-12T15:12:55 EDT" duration-ms="6250">
       <class name="testCases.SwaggerAPI">
-        <test-method is-config="true" signature="setupExcel()[pri:0, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:29 EDT" name="setupExcel" finished-at="2025-06-11T23:13:30 EDT" duration-ms="700" status="PASS">
+        <test-method is-config="true" signature="setupExcel()[pri:0, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:49 EDT" name="setupExcel" finished-at="2025-06-12T15:12:50 EDT" duration-ms="732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupExcel -->
-        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:30 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-11T23:13:32 EDT" duration-ms="1944" status="PASS">
+        <test-method signature="GetAllUsersTest(java.util.Map)[pri:1, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:50 EDT" name="GetAllUsersTest" data-provider="GetUser" finished-at="2025-06-12T15:12:51 EDT" duration-ms="1476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllUsersTest -->
+        <test-method signature="GetAllUsersTest(java.util.Map)[pri:1, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:52 EDT" name="GetAllUsersTest" data-provider="GetUser" finished-at="2025-06-12T15:12:52 EDT" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllUsersTest -->
+        <test-method signature="GetAllUsersTest(java.util.Map)[pri:1, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:52 EDT" name="GetAllUsersTest" data-provider="GetUser" finished-at="2025-06-12T15:12:52 EDT" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllUsersTest -->
+        <test-method signature="GetAllUsersTest(java.util.Map)[pri:1, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:52 EDT" name="GetAllUsersTest" data-provider="GetUser" finished-at="2025-06-12T15:12:52 EDT" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectEndPoint}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllUsersTest -->
+        <test-method signature="GetAllUsersTest(java.util.Map)[pri:1, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:52 EDT" name="GetAllUsersTest" data-provider="GetUser" finished-at="2025-06-12T15:12:52 EDT" duration-ms="140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllUsersTest -->
+        <test-method signature="GetAllUsersTest(java.util.Map)[pri:1, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:52 EDT" name="GetAllUsersTest" data-provider="GetUser" finished-at="2025-06-12T15:12:54 EDT" duration-ms="1280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Code=200, Linemsg=HTTP/1.1 200 OK, Scenario=Valid}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllUsersTest -->
+        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:54 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-12T15:12:54 EDT" duration-ms="282" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -19,70 +85,15 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateUser -->
-        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:32 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-11T23:13:32 EDT" duration-ms="191" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{FirstName=Kripa, LastName=Lkumar, Phno=7357950300, Email=Kripa@gmail.com, Plot=P1-58, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateUser -->
-        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:32 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-11T23:13:32 EDT" duration-ms="186" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{FirstName=KripaS, LastName=LkumarK, Phno=7357911100, Email=KripaS@gmail.com, Plot=P1-58, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateUser -->
-        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:32 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-11T23:13:32 EDT" duration-ms="201" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{FirstName=Liya, LastName=Brad, Phno=7357950302, Email=Leah@gmail.com, Plot=P1-59, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateUser -->
-        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:32 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-11T23:13:33 EDT" duration-ms="285" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{FirstName=Micheal, LastName=Gopi, Phno=7357950301, Email=MichealHeww@gmail.com, Plot=P1-60, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectEndPoint}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateUser -->
-        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:33 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-11T23:13:33 EDT" duration-ms="254" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{FirstName=Puttuna, LastName=Kanagal, Phno=7357950303, Email=PuttuK@gmail.com, Plot=P1-61, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}]]>
-              </value>
-            </param>
-          </params>
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
-Expected status code <404> but was <409>.
+Expected status code <201> but was <409>.
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <404> but was <409>.
+Expected status code <201> but was <409>.
 
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
@@ -106,7 +117,7 @@ at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecific
 at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at testCases.SwaggerAPI.CreateUser(SwaggerAPI.java:202)
+at testCases.SwaggerAPI.CreateUser(SwaggerAPI.java:144)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -139,7 +150,62 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateUser -->
-        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:33 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-11T23:13:33 EDT" duration-ms="221" status="PASS">
+        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:54 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-12T15:12:54 EDT" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Kripa, LastName=Lkumar, Phno=7357950300, Email=Kripa@gmail.com, Plot=P1-58, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:54 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-12T15:12:54 EDT" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=KripaS, LastName=LkumarK, Phno=7357911100, Email=KripaS@gmail.com, Plot=P1-58, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:54 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-12T15:12:55 EDT" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Liya, LastName=Brad, Phno=7357950302, Email=Leah@gmail.com, Plot=P1-59, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:55 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-12T15:12:55 EDT" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Micheal, LastName=Gopi, Phno=7357950301, Email=MichealHeww@gmail.com, Plot=P1-60, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectEndPoint}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:55 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-12T15:12:55 EDT" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Puttuna, LastName=Kanagal, Phno=7357950303, Email=PuttuK@gmail.com, Plot=P1-61, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:55 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-12T15:12:55 EDT" duration-ms="248" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,23 +216,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateUser -->
-        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:33 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-11T23:13:33 EDT" duration-ms="245" status="FAIL">
+        <test-method signature="CreateUser(java.util.Map)[pri:2, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:55 EDT" name="CreateUser" data-provider="PostUser" finished-at="2025-06-12T15:12:55 EDT" duration-ms="192" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{FirstName=Moolan, LastName=Ethan, Phno=7065032286, Email=Moolan2012@gmail.com, Plot=P1-74, Street=santaclara, State=Main, Country=USA, Zip=65432, Code=201, Linemsg=HTTP/1.1 201 Created, Scenario=ValidNam}]]>
+                <![CDATA[{FirstName=GeorgeSam, LastName=sause, Phno=9183618476, Email=BarthoPatt_Schaefer2@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=200, Linemsg=HTTP/1.1 200 , Scenario=Valid}]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
-Expected status code <201> but was <409>.
+Expected status code <200> but was <409>.
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <201> but was <409>.
+Expected status code <200> but was <409>.
 
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
@@ -188,7 +254,7 @@ at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecific
 at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at testCases.SwaggerAPI.CreateUser(SwaggerAPI.java:223)
+at testCases.SwaggerAPI.CreateUser(SwaggerAPI.java:144)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -221,150 +287,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateUser -->
-        <test-method signature="GetUserById(java.util.Map)[pri:3, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:33 EDT" name="GetUserById" data-provider="GetUser" finished-at="2025-06-11T23:13:34 EDT" duration-ms="190" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GetUserById -->
-        <test-method signature="GetUserById(java.util.Map)[pri:3, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:34 EDT" name="GetUserById" data-provider="GetUser" finished-at="2025-06-11T23:13:34 EDT" duration-ms="208" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GetUserById -->
-        <test-method signature="GetUserById(java.util.Map)[pri:3, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:34 EDT" name="GetUserById" data-provider="GetUser" finished-at="2025-06-11T23:13:34 EDT" duration-ms="194" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GetUserById -->
-        <test-method signature="GetUserById(java.util.Map)[pri:3, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:34 EDT" name="GetUserById" data-provider="GetUser" finished-at="2025-06-11T23:13:34 EDT" duration-ms="261" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectEndPoint}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GetUserById -->
-        <test-method signature="GetUserById(java.util.Map)[pri:3, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:34 EDT" name="GetUserById" data-provider="GetUser" finished-at="2025-06-11T23:13:34 EDT" duration-ms="116" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GetUserById -->
-        <test-method signature="GetUserById(java.util.Map)[pri:3, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:34 EDT" name="GetUserById" data-provider="GetUser" finished-at="2025-06-11T23:13:35 EDT" duration-ms="240" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Code=200, Linemsg=HTTP/1.1 200 OK, Scenario=Valid}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GetUserById -->
-        <test-method signature="DeleteUserByFNameTest(java.util.Map)[pri:6, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:35 EDT" name="DeleteUserByFNameTest" data-provider="DeleteUser" finished-at="2025-06-11T23:13:35 EDT" duration-ms="212" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeleteUserByFNameTest -->
-        <test-method signature="DeleteUserByFNameTest(java.util.Map)[pri:6, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:35 EDT" name="DeleteUserByFNameTest" data-provider="DeleteUser" finished-at="2025-06-11T23:13:35 EDT" duration-ms="190" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeleteUserByFNameTest -->
-        <test-method signature="DeleteUserByFNameTest(java.util.Map)[pri:6, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:35 EDT" name="DeleteUserByFNameTest" data-provider="DeleteUser" finished-at="2025-06-11T23:13:35 EDT" duration-ms="196" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeleteUserByFNameTest -->
-        <test-method signature="DeleteUserByFNameTest(java.util.Map)[pri:6, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:35 EDT" name="DeleteUserByFNameTest" data-provider="DeleteUser" finished-at="2025-06-11T23:13:35 EDT" duration-ms="148" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeleteUserByFNameTest -->
-        <test-method signature="DeleteUserByFNameTest(java.util.Map)[pri:6, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:35 EDT" name="DeleteUserByFNameTest" data-provider="DeleteUser" finished-at="2025-06-11T23:13:36 EDT" duration-ms="199" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Code=405, Linemsg=HTTP/1.1 405 Method Not Allowed, Scenario=IncorrectEndPoint}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeleteUserByFNameTest -->
-        <test-method signature="DeleteUserByFNameTest(java.util.Map)[pri:6, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:36 EDT" name="DeleteUserByFNameTest" data-provider="DeleteUser" finished-at="2025-06-11T23:13:36 EDT" duration-ms="211" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=NonExistingUser}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeleteUserByFNameTest -->
-        <test-method signature="DeleteUserByFNameTest(java.util.Map)[pri:6, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:36 EDT" name="DeleteUserByFNameTest" data-provider="DeleteUser" finished-at="2025-06-11T23:13:36 EDT" duration-ms="188" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Code=200, Linemsg= HTTP/1.1 200 OK, Scenario=Valid}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeleteUserByFNameTest -->
-        <test-method is-config="true" signature="closeExcel()[pri:0, instance:testCases.SwaggerAPI@6b8d96d9]" started-at="2025-06-11T23:13:36 EDT" name="closeExcel" finished-at="2025-06-11T23:13:36 EDT" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="closeExcel()[pri:0, instance:testCases.SwaggerAPI@32193bea]" started-at="2025-06-12T15:12:55 EDT" name="closeExcel" finished-at="2025-06-12T15:12:55 EDT" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeExcel -->

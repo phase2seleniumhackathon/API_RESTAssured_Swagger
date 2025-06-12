@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
       <class name="testCases.SwaggerAPI">
         <methods>
-          <include name="CreateUser" invocation-numbers="0 7"/>
+          <include name="CreateUser" invocation-numbers="5 7"/>
           <include name="setupExcel"/>
           <include name="closeExcel"/>
         </methods>

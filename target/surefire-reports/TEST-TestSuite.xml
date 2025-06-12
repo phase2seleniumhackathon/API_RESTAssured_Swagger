@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="8.946" tests="21" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\API-BootCamp\REST_ASSURED\API_Swagger_REST_Assured\target\test-classes;D:\API-BootCamp\REST_ASSURED\API_Swagger_REST_Assured\target\classes;C:\Users\swast\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-java\4.33.0\selenium-java-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-api\4.33.0\selenium-api-4.33.0.jar;C:\Users\swast\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.33.0\selenium-chrome-driver-4.33.0.jar;C:\Users\swast\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.33.0\selenium-chromium-driver-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-json\4.33.0\selenium-json-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.33.0\selenium-manager-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.33.0\selenium-devtools-v135-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.33.0\selenium-devtools-v136-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.33.0\selenium-devtools-v137-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.33.0\selenium-edge-driver-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.33.0\selenium-firefox-driver-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-http\4.33.0\selenium-http-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.33.0\selenium-ie-driver-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.33.0\selenium-remote-driver-4.33.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-api\1.50.0\opentelemetry-api-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-context\1.50.0\opentelemetry-context-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.50.0\opentelemetry-exporter-logging-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.50.0\opentelemetry-sdk-common-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.50.0\opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.50.0\opentelemetry-sdk-extension-autoconfigure-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.50.0\opentelemetry-sdk-trace-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.50.0\opentelemetry-sdk-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.50.0\opentelemetry-sdk-metrics-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.50.0\opentelemetry-sdk-logs-1.50.0.jar;C:\Users\swast\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-os\4.33.0\selenium-os-4.33.0.jar;C:\Users\swast\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.33.0\selenium-safari-driver-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-support\4.33.0\selenium-support-4.33.0.jar;C:\Users\swast\.m2\repository\org\apache\poi\poi-scratchpad\5.4.1\poi-scratchpad-5.4.1.jar;C:\Users\swast\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\swast\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\swast\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\swast\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\swast\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\swast\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\swast\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\swast\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\swast\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\swast\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\swast\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\swast\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\swast\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\swast\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\swast\.m2\repository\org\slf4j\slf4j-simple\2.0.16\slf4j-simple-2.0.16.jar;C:\Users\swast\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\swast\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\swast\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\swast\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\swast\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\swast\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\swast\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\swast\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\swast\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\swast\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\swast\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\swast\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\swast\.m2\repository\org\json\json\20250517\json-20250517.jar;C:\Users\swast\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\swast\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\swast\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\swast\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\swast\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\swast\.m2\repository\io\rest-assured\json-schema-validator\5.5.5\json-schema-validator-5.5.5.jar;C:\Users\swast\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\swast\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\swast\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\swast\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\swast\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\swast\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\swast\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\swast\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\swast\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\swast\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\swast\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\swast\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\swast\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\swast\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\swast\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\swast\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\swast\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\swast\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\swast\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\swast\.m2\repository\io\rest-assured\rest-assured-all\5.5.5\rest-assured-all-5.5.5.jar;C:\Users\swast\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\Users\swast\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\swast\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\swast\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\swast\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\swast\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\swast\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\swast\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\swast\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\swast\.m2\repository\org\freemarker\freemarker\2.3.34\freemarker-2.3.34.jar;C:\Users\swast\.m2\repository\com\aventstack\chaintest-testng\1.0.12\chaintest-testng-1.0.12.jar;C:\Users\swast\.m2\repository\com\aventstack\chaintest-core\1.0.12\chaintest-core-1.0.12.jar;C:\Users\swast\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.0\jackson-databind-2.18.0.jar;C:\Users\swast\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.0\jackson-annotations-2.18.0.jar;C:\Users\swast\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.0\jackson-core-2.18.0.jar;C:\Users\swast\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\swast\.m2\repository\com\azure\azure-storage-blob\12.28.0\azure-storage-blob-12.28.0.jar;C:\Users\swast\.m2\repository\com\azure\azure-core\1.52.0\azure-core-1.52.0.jar;C:\Users\swast\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.2\jackson-datatype-jsr310-2.17.2.jar;C:\Users\swast\.m2\repository\io\projectreactor\reactor-core\3.4.38\reactor-core-3.4.38.jar;C:\Users\swast\.m2\repository\com\azure\azure-core-http-netty\1.15.4\azure-core-http-netty-1.15.4.jar;C:\Users\swast\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\swast\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\swast\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\swast\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\swast\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\swast\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\swast\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\swast\.m2\repository\io\projectreactor\netty\reactor-netty-http\1.0.45\reactor-netty-http-1.0.45.jar;C:\Users\swast\.m2\repository\io\netty\netty-resolver-dns\4.1.109.Final\netty-resolver-dns-4.1.109.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-codec-dns\4.1.109.Final\netty-codec-dns-4.1.109.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.109.Final\netty-resolver-dns-native-macos-4.1.109.Final-osx-x86_64.jar;C:\Users\swast\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.109.Final\netty-resolver-dns-classes-macos-4.1.109.Final.jar;C:\Users\swast\.m2\repository\io\projectreactor\netty\reactor-netty-core\1.0.45\reactor-netty-core-1.0.45.jar;C:\Users\swast\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\swast\.m2\repository\com\azure\azure-storage-internal-avro\12.13.0\azure-storage-internal-avro-12.13.0.jar;C:\Users\swast\.m2\repository\com\azure\azure-xml\1.1.0\azure-xml-1.1.0.jar;C:\Users\swast\.m2\repository\com\azure\azure-storage-common\12.28.0\azure-storage-common-12.28.0.jar;C:\Users\swast\.m2\repository\com\azure\azure-identity\1.13.3\azure-identity-1.13.3.jar;C:\Users\swast\.m2\repository\com\azure\azure-json\1.3.0\azure-json-1.3.0.jar;C:\Users\swast\.m2\repository\com\microsoft\azure\msal4j\1.17.1\msal4j-1.17.1.jar;C:\Users\swast\.m2\repository\com\nimbusds\oauth2-oidc-sdk\11.18\oauth2-oidc-sdk-11.18.jar;C:\Users\swast\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\swast\.m2\repository\com\nimbusds\content-type\2.3\content-type-2.3.jar;C:\Users\swast\.m2\repository\com\nimbusds\lang-tag\1.7\lang-tag-1.7.jar;C:\Users\swast\.m2\repository\com\nimbusds\nimbus-jose-jwt\9.40\nimbus-jose-jwt-9.40.jar;C:\Users\swast\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\swast\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\swast\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\swast\.m2\repository\com\microsoft\azure\msal4j-persistence-extension\1.3.0\msal4j-persistence-extension-1.3.0.jar;C:\Users\swast\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\swast\.m2\repository\net\java\dev\jna\jna-platform\5.6.0\jna-platform-5.6.0.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\s3\2.29.39\s3-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\aws-xml-protocol\2.29.39\aws-xml-protocol-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\aws-query-protocol\2.29.39\aws-query-protocol-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\protocol-core\2.29.39\protocol-core-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\arns\2.29.39\arns-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\profiles\2.29.39\profiles-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\crt-core\2.29.39\crt-core-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\http-auth\2.29.39\http-auth-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\identity-spi\2.29.39\identity-spi-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\http-auth-spi\2.29.39\http-auth-spi-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\http-auth-aws\2.29.39\http-auth-aws-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\checksums\2.29.39\checksums-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\checksums-spi\2.29.39\checksums-spi-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\retries-spi\2.29.39\retries-spi-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\sdk-core\2.29.39\sdk-core-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\retries\2.29.39\retries-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\auth\2.29.39\auth-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\http-auth-aws-eventstream\2.29.39\http-auth-aws-eventstream-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\eventstream\eventstream\1.0.1\eventstream-1.0.1.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\http-client-spi\2.29.39\http-client-spi-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\regions\2.29.39\regions-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\annotations\2.29.39\annotations-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\utils\2.29.39\utils-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\aws-core\2.29.39\aws-core-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\metrics-spi\2.29.39\metrics-spi-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\json-utils\2.29.39\json-utils-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\third-party-jackson-core\2.29.39\third-party-jackson-core-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\endpoints-spi\2.29.39\endpoints-spi-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\netty-nio-client\2.29.39\netty-nio-client-2.29.39.jar;C:\Users\swast\.m2\repository\io\netty\netty-transport\4.1.115.Final\netty-transport-4.1.115.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.115.Final\netty-transport-classes-epoll-4.1.115.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-resolver\4.1.115.Final\netty-resolver-4.1.115.Final.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\apache-client\2.29.39\apache-client-2.29.39.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\swast\AppData\Local\Temp\surefire15463891215238920509\surefirebooter-20250611234617712_3.jar C:\Users\swast\AppData\Local\Temp\surefire15463891215238920509 2025-06-11T23-46-17_255-jvmRun1 surefire-20250611234617712_1tmp surefire_0-20250611234617712_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\API-BootCamp\REST_ASSURED\API_Swagger_REST_Assured\target\test-classes;D:\API-BootCamp\REST_ASSURED\API_Swagger_REST_Assured\target\classes;C:\Users\swast\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-java\4.33.0\selenium-java-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-api\4.33.0\selenium-api-4.33.0.jar;C:\Users\swast\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.33.0\selenium-chrome-driver-4.33.0.jar;C:\Users\swast\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.33.0\selenium-chromium-driver-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-json\4.33.0\selenium-json-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.33.0\selenium-manager-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.33.0\selenium-devtools-v135-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.33.0\selenium-devtools-v136-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.33.0\selenium-devtools-v137-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.33.0\selenium-edge-driver-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.33.0\selenium-firefox-driver-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-http\4.33.0\selenium-http-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.33.0\selenium-ie-driver-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.33.0\selenium-remote-driver-4.33.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-api\1.50.0\opentelemetry-api-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-context\1.50.0\opentelemetry-context-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.50.0\opentelemetry-exporter-logging-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.50.0\opentelemetry-sdk-common-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.50.0\opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.50.0\opentelemetry-sdk-extension-autoconfigure-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.50.0\opentelemetry-sdk-trace-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.50.0\opentelemetry-sdk-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.50.0\opentelemetry-sdk-metrics-1.50.0.jar;C:\Users\swast\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.50.0\opentelemetry-sdk-logs-1.50.0.jar;C:\Users\swast\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-os\4.33.0\selenium-os-4.33.0.jar;C:\Users\swast\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.33.0\selenium-safari-driver-4.33.0.jar;C:\Users\swast\.m2\repository\org\seleniumhq\selenium\selenium-support\4.33.0\selenium-support-4.33.0.jar;C:\Users\swast\.m2\repository\org\apache\poi\poi-scratchpad\5.4.1\poi-scratchpad-5.4.1.jar;C:\Users\swast\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\swast\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\swast\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\swast\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\swast\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\swast\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\swast\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\swast\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\swast\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\swast\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\swast\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\swast\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\swast\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\swast\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\swast\.m2\repository\org\slf4j\slf4j-simple\2.0.16\slf4j-simple-2.0.16.jar;C:\Users\swast\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\swast\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\swast\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\swast\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\swast\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\swast\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\swast\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\swast\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\swast\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\swast\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\swast\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\swast\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\swast\.m2\repository\org\json\json\20250517\json-20250517.jar;C:\Users\swast\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\swast\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\swast\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\swast\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\swast\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\swast\.m2\repository\io\rest-assured\json-schema-validator\5.5.5\json-schema-validator-5.5.5.jar;C:\Users\swast\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\swast\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\swast\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\swast\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\swast\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\swast\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\swast\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\swast\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\swast\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\swast\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\swast\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\swast\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\swast\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\swast\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\swast\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\swast\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\swast\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\swast\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\swast\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\swast\.m2\repository\io\rest-assured\rest-assured-all\5.5.5\rest-assured-all-5.5.5.jar;C:\Users\swast\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\Users\swast\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\swast\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\swast\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\swast\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\swast\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\swast\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\swast\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\swast\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\swast\.m2\repository\org\freemarker\freemarker\2.3.34\freemarker-2.3.34.jar;C:\Users\swast\.m2\repository\com\aventstack\chaintest-testng\1.0.12\chaintest-testng-1.0.12.jar;C:\Users\swast\.m2\repository\com\aventstack\chaintest-core\1.0.12\chaintest-core-1.0.12.jar;C:\Users\swast\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.0\jackson-databind-2.18.0.jar;C:\Users\swast\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.0\jackson-annotations-2.18.0.jar;C:\Users\swast\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.0\jackson-core-2.18.0.jar;C:\Users\swast\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\swast\.m2\repository\com\azure\azure-storage-blob\12.28.0\azure-storage-blob-12.28.0.jar;C:\Users\swast\.m2\repository\com\azure\azure-core\1.52.0\azure-core-1.52.0.jar;C:\Users\swast\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.2\jackson-datatype-jsr310-2.17.2.jar;C:\Users\swast\.m2\repository\io\projectreactor\reactor-core\3.4.38\reactor-core-3.4.38.jar;C:\Users\swast\.m2\repository\com\azure\azure-core-http-netty\1.15.4\azure-core-http-netty-1.15.4.jar;C:\Users\swast\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\swast\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\swast\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\swast\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\swast\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\swast\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\swast\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\swast\.m2\repository\io\projectreactor\netty\reactor-netty-http\1.0.45\reactor-netty-http-1.0.45.jar;C:\Users\swast\.m2\repository\io\netty\netty-resolver-dns\4.1.109.Final\netty-resolver-dns-4.1.109.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-codec-dns\4.1.109.Final\netty-codec-dns-4.1.109.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.109.Final\netty-resolver-dns-native-macos-4.1.109.Final-osx-x86_64.jar;C:\Users\swast\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.109.Final\netty-resolver-dns-classes-macos-4.1.109.Final.jar;C:\Users\swast\.m2\repository\io\projectreactor\netty\reactor-netty-core\1.0.45\reactor-netty-core-1.0.45.jar;C:\Users\swast\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\swast\.m2\repository\com\azure\azure-storage-internal-avro\12.13.0\azure-storage-internal-avro-12.13.0.jar;C:\Users\swast\.m2\repository\com\azure\azure-xml\1.1.0\azure-xml-1.1.0.jar;C:\Users\swast\.m2\repository\com\azure\azure-storage-common\12.28.0\azure-storage-common-12.28.0.jar;C:\Users\swast\.m2\repository\com\azure\azure-identity\1.13.3\azure-identity-1.13.3.jar;C:\Users\swast\.m2\repository\com\azure\azure-json\1.3.0\azure-json-1.3.0.jar;C:\Users\swast\.m2\repository\com\microsoft\azure\msal4j\1.17.1\msal4j-1.17.1.jar;C:\Users\swast\.m2\repository\com\nimbusds\oauth2-oidc-sdk\11.18\oauth2-oidc-sdk-11.18.jar;C:\Users\swast\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\swast\.m2\repository\com\nimbusds\content-type\2.3\content-type-2.3.jar;C:\Users\swast\.m2\repository\com\nimbusds\lang-tag\1.7\lang-tag-1.7.jar;C:\Users\swast\.m2\repository\com\nimbusds\nimbus-jose-jwt\9.40\nimbus-jose-jwt-9.40.jar;C:\Users\swast\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\swast\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\swast\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\swast\.m2\repository\com\microsoft\azure\msal4j-persistence-extension\1.3.0\msal4j-persistence-extension-1.3.0.jar;C:\Users\swast\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\swast\.m2\repository\net\java\dev\jna\jna-platform\5.6.0\jna-platform-5.6.0.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\s3\2.29.39\s3-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\aws-xml-protocol\2.29.39\aws-xml-protocol-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\aws-query-protocol\2.29.39\aws-query-protocol-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\protocol-core\2.29.39\protocol-core-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\arns\2.29.39\arns-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\profiles\2.29.39\profiles-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\crt-core\2.29.39\crt-core-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\http-auth\2.29.39\http-auth-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\identity-spi\2.29.39\identity-spi-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\http-auth-spi\2.29.39\http-auth-spi-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\http-auth-aws\2.29.39\http-auth-aws-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\checksums\2.29.39\checksums-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\checksums-spi\2.29.39\checksums-spi-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\retries-spi\2.29.39\retries-spi-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\sdk-core\2.29.39\sdk-core-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\retries\2.29.39\retries-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\auth\2.29.39\auth-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\http-auth-aws-eventstream\2.29.39\http-auth-aws-eventstream-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\eventstream\eventstream\1.0.1\eventstream-1.0.1.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\http-client-spi\2.29.39\http-client-spi-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\regions\2.29.39\regions-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\annotations\2.29.39\annotations-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\utils\2.29.39\utils-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\aws-core\2.29.39\aws-core-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\metrics-spi\2.29.39\metrics-spi-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\json-utils\2.29.39\json-utils-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\third-party-jackson-core\2.29.39\third-party-jackson-core-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\endpoints-spi\2.29.39\endpoints-spi-2.29.39.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\netty-nio-client\2.29.39\netty-nio-client-2.29.39.jar;C:\Users\swast\.m2\repository\io\netty\netty-transport\4.1.115.Final\netty-transport-4.1.115.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.115.Final\netty-transport-classes-epoll-4.1.115.Final.jar;C:\Users\swast\.m2\repository\io\netty\netty-resolver\4.1.115.Final\netty-resolver-4.1.115.Final.jar;C:\Users\swast\.m2\repository\software\amazon\awssdk\apache-client\2.29.39\apache-client-2.29.39.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\swast"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\API-BootCamp\REST_ASSURED\API_Swagger_REST_Assured"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\swast\AppData\Local\Temp\surefire15463891215238920509\surefirebooter-20250611234617712_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
+    <property name="user.name" value="swast"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\swast\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\swast\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.5"/>
+    <property name="user.dir" value="D:\API-BootCamp\REST_ASSURED\API_Swagger_REST_Assured"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\swast\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\swast\bin;C:\Python313\Scripts;C:\Python313;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\Git\cmd;C:\Users\swast\git\Team7_SeleniumCodeNinjas_LMS_Feb2025\tessdata;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\PowerShell\7;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\swast\scoop\shims;C:\Users\swast\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\swast\AppData\Local\Programs\Python\Python311;C:\Users\swast\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2023.1.3\bin;C:\Program Files\Maven\apache-maven-3.9.7-bin\apache-maven-3.9.7\bin;C:\Users\swast\AppData\Local\GitHubDesktop\bin;C:\Users\swast\AppData\Roaming\npm;C:\Users\swast\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.5+9-LTS-239"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="CreateUser[{FirstName=Ramakrishna, LastName=EthaBhat, Phno=7865431245, Email=ramabhat@gmail.com, Plot=P1-73, Street=santaclara, State=Main, Country=USA, Zip=65432, Code=201, Linemsg=HTTP/1.1 201 Created, Scenario=Valid}](1)" classname="testCases.SwaggerAPI" time="2.244">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:20.936 [main] LoggerLoad - RestAssured Swagger API Execution
+[INFO ] 2025-06-11 23:46:20.938 [main] LoggerLoad - Initializing Workbook
+[INFO ] 2025-06-11 23:46:20.938 [main] LoggerLoad - Initializing Excel Reader with path: src/test/resources/TestData/API_TestData.xlsx
+[INFO ] 2025-06-11 23:46:21.616 [main] LoggerLoad - POST REQUEST: Valid
+INSUDE VALID
+Request method:	POST
+Request URI:	https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userContactNumber": "7865431245",
+    "userAddress": {
+        "country": "USA",
+        "zipCode": "65432",
+        "street": "santaclara",
+        "plotNumber": "P1-73",
+        "state": "Main"
+    },
+    "userEmailId": "ramabhat@gmail.com",
+    "userLastName": "EthaBhat",
+    "userFirstName": "Ramakrishna"
+}
+Ramakrishna    Ramakrishna
+EthaBhat    EthaBhat
+7865431245    7865431245
+ramabhat@gmail.com    ramabhat@gmail.com
+28447
+Ramakrishna
+]]></system-out>
+  </testcase>
+  <testcase name="CreateUser[{FirstName=Kripa, LastName=Lkumar, Phno=7357950300, Email=Kripa@gmail.com, Plot=P1-58, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}](2)" classname="testCases.SwaggerAPI" time="0.25">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:23.820 [main] LoggerLoad - POST REQUEST: EmptyPswd
+Request method:	POST
+Request URI:	https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userContactNumber": "7357950300",
+    "userAddress": {
+        "country": "USA",
+        "zipCode": "65432",
+        "street": "santaclara",
+        "plotNumber": "P1-58",
+        "state": "NJ"
+    },
+    "userEmailId": "Kripa@gmail.com",
+    "userLastName": "Lkumar",
+    "userFirstName": "Kripa"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="CreateUser[{FirstName=KripaS, LastName=LkumarK, Phno=7357911100, Email=KripaS@gmail.com, Plot=P1-58, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}](3)" classname="testCases.SwaggerAPI" time="0.185">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:24.074 [main] LoggerLoad - POST REQUEST: EmptyUsr
+Request method:	POST
+Request URI:	https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userContactNumber": "7357911100",
+    "userAddress": {
+        "country": "USA",
+        "zipCode": "65432",
+        "street": "santaclara",
+        "plotNumber": "P1-58",
+        "state": "NJ"
+    },
+    "userEmailId": "KripaS@gmail.com",
+    "userLastName": "LkumarK",
+    "userFirstName": "KripaS"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="CreateUser[{FirstName=Liya, LastName=Brad, Phno=7357950302, Email=Leah@gmail.com, Plot=P1-59, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}](4)" classname="testCases.SwaggerAPI" time="0.226">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:24.259 [main] LoggerLoad - POST REQUEST: NoAuth
+Request method:	POST
+Request URI:	https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userContactNumber": "7357950302",
+    "userAddress": {
+        "country": "USA",
+        "zipCode": "65432",
+        "street": "santaclara",
+        "plotNumber": "P1-59",
+        "state": "NJ"
+    },
+    "userEmailId": "Leah@gmail.com",
+    "userLastName": "Brad",
+    "userFirstName": "Liya"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="CreateUser[{FirstName=Micheal, LastName=Gopi, Phno=7357950301, Email=MichealHeww@gmail.com, Plot=P1-60, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectEndPoint}](5)" classname="testCases.SwaggerAPI" time="0.413">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:24.485 [main] LoggerLoad - POST REQUEST: IncorrectEndPoint
+Request method:	POST
+Request URI:	https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers%40invalid
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userContactNumber": "7357950301",
+    "userAddress": {
+        "country": "USA",
+        "zipCode": "65432",
+        "street": "santaclara",
+        "plotNumber": "P1-60",
+        "state": "NJ"
+    },
+    "userEmailId": "MichealHeww@gmail.com",
+    "userLastName": "Gopi",
+    "userFirstName": "Micheal"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="CreateUser[{FirstName=Puttuna, LastName=Kanagal, Phno=7357950303, Email=PuttuK@gmail.com, Plot=P1-61, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}](6)" classname="testCases.SwaggerAPI" time="0.44">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;409&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <409>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testCases.SwaggerAPI.CreateUser(SwaggerAPI.java:202)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:24.898 [main] LoggerLoad - POST REQUEST: IncorrectBaseURL
+Request method:	POST
+Request URI:	https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userContactNumber": "7357950303",
+    "userAddress": {
+        "country": "USA",
+        "zipCode": "65432",
+        "street": "santaclara",
+        "plotNumber": "P1-61",
+        "state": "NJ"
+    },
+    "userEmailId": "PuttuK@gmail.com",
+    "userLastName": "Kanagal",
+    "userFirstName": "Puttuna"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="CreateUser[{FirstName=Ramakrishna, LastName=EthaBhat, Phno=7865431245, Email=ramabhat@gmail.com, Plot=P1-62, Street=santaclara, State=MI, Country=India, Zip=65432, Code=409, Linemsg=HTTP/1.1 409 Conflict, Scenario=ExistingUser}](7)" classname="testCases.SwaggerAPI" time="0.365">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:25.339 [main] LoggerLoad - POST REQUEST: ExistingUser
+Request method:	POST
+Request URI:	https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userContactNumber": "7865431245",
+    "userAddress": {
+        "country": "India",
+        "zipCode": "65432",
+        "street": "santaclara",
+        "plotNumber": "P1-62",
+        "state": "MI"
+    },
+    "userEmailId": "ramabhat@gmail.com",
+    "userLastName": "EthaBhat",
+    "userFirstName": "Ramakrishna"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="CreateUser[{FirstName=Moolan, LastName=Ethan, Phno=7065032286, Email=Moolan2012@gmail.com, Plot=P1-74, Street=santaclara, State=Main, Country=USA, Zip=65432, Code=201, Linemsg=HTTP/1.1 201 Created, Scenario=ValidNam}](8)" classname="testCases.SwaggerAPI" time="0.317">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;409&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <409>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testCases.SwaggerAPI.CreateUser(SwaggerAPI.java:223)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:25.705 [main] LoggerLoad - POST REQUEST: ValidNam
+INSUDE VALID
+Request method:	POST
+Request URI:	https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userContactNumber": "7065032286",
+    "userAddress": {
+        "country": "USA",
+        "zipCode": "65432",
+        "street": "santaclara",
+        "plotNumber": "P1-74",
+        "state": "Main"
+    },
+    "userEmailId": "Moolan2012@gmail.com",
+    "userLastName": "Ethan",
+    "userFirstName": "Moolan"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserById[{Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}](1)" classname="testCases.SwaggerAPI" time="0.304">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:26.025 [main] LoggerLoad - GET REQUEST By ID: EmptyUsr
+Response Code: 401
+Status Line: HTTP/1.1 401 Unauthorized
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserById[{Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}](2)" classname="testCases.SwaggerAPI" time="0.263">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:26.327 [main] LoggerLoad - GET REQUEST By ID: EmptyPswd
+Response Code: 401
+Status Line: HTTP/1.1 401 Unauthorized
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserById[{Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}](3)" classname="testCases.SwaggerAPI" time="0.216">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:26.591 [main] LoggerLoad - GET REQUEST By ID: NoAuth
+Response Code: 401
+Status Line: HTTP/1.1 401 Unauthorized
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserById[{Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectEndPoint}](4)" classname="testCases.SwaggerAPI" time="0.213">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:26.808 [main] LoggerLoad - GET REQUEST By ID: IncorrectEndPoint
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserById[{Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}](5)" classname="testCases.SwaggerAPI" time="0.31">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:27.022 [main] LoggerLoad - GET REQUEST By ID: IncorrectBaseURL
+Status Line: HTTP/1.1 404 Not Found
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserById[{Code=200, Linemsg=HTTP/1.1 200 OK, Scenario=Valid}](6)" classname="testCases.SwaggerAPI" time="0.195">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:27.332 [main] LoggerLoad - GET REQUEST By ID: Valid
+Request method:	GET
+Request URI:	https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/28447
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=28447
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Response Code: 200
+Status Line: HTTP/1.1 200 OK
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUserByFNameTest[{Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}](1)" classname="testCases.SwaggerAPI" time="0.199">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:27.528 [main] LoggerLoad - DELETE REQUEST By Name: EmptyUsr
+DELETE REQUEST
+NameRamakrishna
+Request method:	GET
+Request URI:	https://userserviceapp-f5a54828541b.herokuapp.com/uap/deleteuser/username/Ramakrishna
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	fname=Ramakrishna
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Response Code: 401
+Status Line: HTTP/1.1 401 Unauthorized
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUserByFNameTest[{Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}](2)" classname="testCases.SwaggerAPI" time="0.219">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:27.727 [main] LoggerLoad - DELETE REQUEST By Name: EmptyPswd
+DELETE REQUEST
+NameRamakrishna
+Request method:	GET
+Request URI:	https://userserviceapp-f5a54828541b.herokuapp.com/uap/deleteuser/username/Ramakrishna
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	fname=Ramakrishna
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Response Code: 401
+Status Line: HTTP/1.1 401 Unauthorized
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUserByFNameTest[{Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}](3)" classname="testCases.SwaggerAPI" time="0.207">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:27.946 [main] LoggerLoad - DELETE REQUEST By Name: NoAuth
+DELETE REQUEST
+NameRamakrishna
+Request method:	GET
+Request URI:	https://userserviceapp-f5a54828541b.herokuapp.com/uap/deleteuser/username/Ramakrishna
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	fname=Ramakrishna
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Response Code: 401
+Status Line: HTTP/1.1 401 Unauthorized
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUserByFNameTest[{Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}](4)" classname="testCases.SwaggerAPI" time="0.086">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:28.155 [main] LoggerLoad - DELETE REQUEST By Name: IncorrectBaseURL
+DELETE REQUEST
+NameRamakrishna
+Request method:	GET
+Request URI:	https://userserviceapp-f5a5482850000041b.herokuapp.com/uap/deleteuser/username/Ramakrishna
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	fname=Ramakrishna
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Response Code: 404
+Status Line: HTTP/1.1 404 Not Found
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUserByFNameTest[{Code=405, Linemsg=HTTP/1.1 405 Method Not Allowed, Scenario=IncorrectEndPoint}](5)" classname="testCases.SwaggerAPI" time="0.185">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:28.240 [main] LoggerLoad - DELETE REQUEST By Name: IncorrectEndPoint
+DELETE REQUEST
+NameRamakrishna
+Request method:	GET
+Request URI:	https://userserviceapp-f5a54828541b.herokuapp.com/uap/deleteuser/username/Ramakrishna%24invalid
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	fname=Ramakrishna
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Response Code: 405
+Status Line: HTTP/1.1 405 Method Not Allowed
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUserByFNameTest[{Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=NonExistingUser}](6)" classname="testCases.SwaggerAPI" time="0.2">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:28.427 [main] LoggerLoad - DELETE REQUEST By Name: NonExistingUser
+DELETE REQUEST
+NameRamakrishna
+Request method:	GET
+Request URI:	https://userserviceapp-f5a54828541b.herokuapp.com/uap/deleteuser/username/RamakrishnaAPI
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	fname=RamakrishnaAPI
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Response Code: 405
+Status Line: HTTP/1.1 405 Method Not Allowed
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUserByFNameTest[{Code=200, Linemsg= HTTP/1.1 200 OK, Scenario=Valid}](7)" classname="testCases.SwaggerAPI" time="0.21">
+    <system-out><![CDATA[[INFO ] 2025-06-11 23:46:28.628 [main] LoggerLoad - DELETE REQUEST By Name: Valid
+DELETE REQUEST
+NameRamakrishna
+Request method:	DELETE
+Request URI:	https://userserviceapp-f5a54828541b.herokuapp.com/uap/deleteuser/username/Ramakrishna
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	fname=Ramakrishna
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Response Code: 200
+Status Line: HTTP/1.1 200 OK
+]]></system-out>
+  </testcase>
+</testsuite>

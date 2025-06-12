@@ -1,0 +1,9 @@
+testCases\SwaggerAPI.class
+utilities\ExcelReader$1.class
+utilities\ExcelReader.class
+testCases\BaseTest.class
+requestDataBody\AddInformation.class
+requestDataBody\UserInformation.class
+utilities\ConfigReader.class
+utilities\Dataprovider.class
+utilities\LoggerLoad.class
