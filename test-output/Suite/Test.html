@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>12/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>56/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 12 15:12:49 EDT 2025</td>
+<td>Started on:</td><td>Thu Jun 12 21:37:42 EDT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6250 ms)</td>
+<tr><td>Total time:</td><td>20 seconds (20775 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,169 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testCases.SwaggerAPI.CreateUser()'><b>CreateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=GeorgeSam, LastName=sause, Phno=9183618476, Email=BarthoPatt_Schaefer2@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=200, Linemsg=HTTP/1.1 200 , Scenario=Valid}</td>
-<td><div><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;409&gt;.
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at testCases.SwaggerAPI.CreateUser(SwaggerAPI.java:144)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace844185066", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace844185066'><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;409&gt;.
-
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at testCases.SwaggerAPI.CreateUser(SwaggerAPI.java:144)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>testCases.SwaggerAPI@32193bea</td></tr>
-<tr>
-<td title='testCases.SwaggerAPI.CreateUser()'><b>CreateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Ramakrishna, LastName=EthaBhat, Phno=7865431245, Email=ramabhat@gmail.com, Plot=P1-73, Street=santaclara, State=Main, Country=USA, Zip=65432, Code=201, Linemsg=HTTP/1.1 201 Created, Scenario=Valid}</td>
-<td><div><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;201&gt; but was &lt;409&gt;.
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at testCases.SwaggerAPI.CreateUser(SwaggerAPI.java:144)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1121023149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1121023149'><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;201&gt; but was &lt;409&gt;.
-
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at testCases.SwaggerAPI.CreateUser(SwaggerAPI.java:144)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>testCases.SwaggerAPI@32193bea</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -239,65 +76,285 @@ Expected status code &lt;201&gt; but was &lt;409&gt;.
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.SwaggerAPI.CreateUser()'><b>CreateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=KripaS, LastName=LkumarK, Phno=7357911100, Email=KripaS@gmail.com, Plot=P1-58, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}</td>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Reginald, LastName=sause, Phno=45938476, Email=BarthoPatt_Schaefer9@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=400, Linemsg=HTTP/1.1 400 Bad Request, Scenario=PhoneLess10Digit}</td>
 <td></td>
 <td>0</td>
-<td>testCases.SwaggerAPI@32193bea</td></tr>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
 <tr>
-<td title='testCases.SwaggerAPI.GetAllUsersTest()'><b>GetAllUsersTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=200, Linemsg=HTTP/1.1 200 OK, Scenario=Valid}</td>
-<td></td>
-<td>1</td>
-<td>testCases.SwaggerAPI@32193bea</td></tr>
-<tr>
-<td title='testCases.SwaggerAPI.GetAllUsersTest()'><b>GetAllUsersTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}</td>
+<td title='testCases.SwaggerAPI.CreateUser()'><b>CreateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=GeorgeSam, LastName=sause, Phno=9183618476, Email=BarthoPatt_Schaefer2@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=201, Linemsg=HTTP/1.1 201 Created, Scenario=Valid}</td>
 <td></td>
 <td>0</td>
-<td>testCases.SwaggerAPI@32193bea</td></tr>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
 <tr>
-<td title='testCases.SwaggerAPI.GetAllUsersTest()'><b>GetAllUsersTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectEndPoint}</td>
+<td title='testCases.SwaggerAPI.DeleteUserByIdTest()'><b>DeleteUserByIdTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=405, Linemsg=HTTP/1.1 405 Method Not Allowed, Scenario=IncorrectEndPoint}</td>
 <td></td>
 <td>0</td>
-<td>testCases.SwaggerAPI@32193bea</td></tr>
-<tr>
-<td title='testCases.SwaggerAPI.CreateUser()'><b>CreateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Kripa, LastName=Lkumar, Phno=7357950300, Email=Kripa@gmail.com, Plot=P1-58, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}</td>
-<td></td>
-<td>0</td>
-<td>testCases.SwaggerAPI@32193bea</td></tr>
-<tr>
-<td title='testCases.SwaggerAPI.GetAllUsersTest()'><b>GetAllUsersTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}</td>
-<td></td>
-<td>1</td>
-<td>testCases.SwaggerAPI@32193bea</td></tr>
-<tr>
-<td title='testCases.SwaggerAPI.CreateUser()'><b>CreateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Puttuna, LastName=Kanagal, Phno=7357950303, Email=PuttuK@gmail.com, Plot=P1-61, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}</td>
-<td></td>
-<td>0</td>
-<td>testCases.SwaggerAPI@32193bea</td></tr>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
 <tr>
 <td title='testCases.SwaggerAPI.GetAllUsersTest()'><b>GetAllUsersTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}</td>
 <td></td>
 <td>0</td>
-<td>testCases.SwaggerAPI@32193bea</td></tr>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetUserByFName()'><b>GetUserByFName</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetAllUsersTest()'><b>GetAllUsersTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}</td>
+<td></td>
+<td>1</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetUserById()'><b>GetUserById</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Reginald, LastName=sause, Phno=9183618484, Email=BarthoPatt_Schaefer13@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetAllUsersTest()'><b>GetAllUsersTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.DeleteUserByIdTest()'><b>DeleteUserByIdTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetUserByFName()'><b>GetUserByFName</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=200, Linemsg=HTTP/1.1 200 OK, Scenario=Valid}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.DeleteUserByFNameTest()'><b>DeleteUserByFNameTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
 <tr>
 <td title='testCases.SwaggerAPI.GetAllUsersTest()'><b>GetAllUsersTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}</td>
 <td></td>
 <td>0</td>
-<td>testCases.SwaggerAPI@32193bea</td></tr>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
 <tr>
-<td title='testCases.SwaggerAPI.CreateUser()'><b>CreateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Liya, LastName=Brad, Phno=7357950302, Email=Leah@gmail.com, Plot=P1-59, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}</td>
+<td title='testCases.SwaggerAPI.DeleteUserByFNameTest()'><b>DeleteUserByFNameTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=NonExistingUser}</td>
 <td></td>
 <td>0</td>
-<td>testCases.SwaggerAPI@32193bea</td></tr>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetUserById()'><b>GetUserById</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectEndPoint}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.DeleteUserByFNameTest()'><b>DeleteUserByFNameTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.DeleteUserByIdTest()'><b>DeleteUserByIdTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Reginald, LastName=, Phno=9183618481, Email=BarthoPatt_Schaefer7@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=400, Linemsg=HTTP/1.1 400 Bad Request, Scenario=EmptyLastName}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetUserByFName()'><b>GetUserByFName</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetUserByFName()'><b>GetUserByFName</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetAllUsersTest()'><b>GetAllUsersTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=200, Linemsg=HTTP/1.1 200 OK, Scenario=Valid}</td>
+<td></td>
+<td>1</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetUserByFName()'><b>GetUserByFName</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectEndPoint}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.DeleteUserByIdTest()'><b>DeleteUserByIdTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=, LastName=sause, Phno=9183618478, Email=BarthoPatt_Schaefer4@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=400, Linemsg=HTTP/1.1 400 Bad Request, Scenario=EmptyFirstName}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Reginald, LastName=sause, Phno=9183618476, Email=BarthoPatt_Schaefer2@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=200, Linemsg=HTTP/1.1 200 OK, Scenario=Valid}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetUserByFName()'><b>GetUserByFName</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.DeleteUserByIdTest()'><b>DeleteUserByIdTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=NonExistingUser}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetUserById()'><b>GetUserById</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.DeleteUserByFNameTest()'><b>DeleteUserByFNameTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
 <tr>
 <td title='testCases.SwaggerAPI.CreateUser()'><b>CreateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Ramakrishna, LastName=EthaBhat, Phno=7865431245, Email=ramabhat@gmail.com, Plot=P1-62, Street=santaclara, State=MI, Country=India, Zip=65432, Code=409, Linemsg=HTTP/1.1 409 Conflict, Scenario=ExistingUser}</td>
 <td></td>
 <td>0</td>
-<td>testCases.SwaggerAPI@32193bea</td></tr>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetUserById()'><b>GetUserById</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=200, Linemsg=HTTP/1.1 200 OK, Scenario=Valid}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
 <tr>
 <td title='testCases.SwaggerAPI.CreateUser()'><b>CreateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Micheal, LastName=Gopi, Phno=7357950301, Email=MichealHeww@gmail.com, Plot=P1-60, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectEndPoint}</td>
 <td></td>
 <td>0</td>
-<td>testCases.SwaggerAPI@32193bea</td></tr>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Reginald, LastName=sause$, Phno=9183618480, Email=BarthoPatt_Schaefer6@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=400, Linemsg=HTTP/1.1 400 Bad Request, Scenario=CharLastName}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.CreateUser()'><b>CreateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Ramakrishna, LastName=EthaBhat, Phno=7865431245, Email=ramabhat@gmail.com, Plot=P1-73, Street=santaclara, State=Main, Country=USA, Zip=65432, Code=201, Linemsg=HTTP/1.1 201 Created, Scenario=Valid}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetUserById()'><b>GetUserById</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Reginald, LastName=sause, Phno=8.79184E+11, Email=BarthoPatt_Schaefer8@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=400, Linemsg=HTTP/1.1 400 Bad Request, Scenario=PhoneGrt10Digit}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.DeleteUserByIdTest()'><b>DeleteUserByIdTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=200, Linemsg= HTTP/1.1 200 OK, Scenario=Valid}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.DeleteUserByFNameTest()'><b>DeleteUserByFNameTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.CreateUser()'><b>CreateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=KripaS, LastName=LkumarK, Phno=7357911100, Email=KripaS@gmail.com, Plot=P1-58, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Reginald, LastName=sause, Phno=9183618488, Email=BarthoPatt_Schaefer17@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=400, Linemsg=HTTP/1.1 400 Bad Request, Scenario=IncorrectEndPoint}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Reginald#, LastName=sause, Phno=9183618477, Email=BarthoPatt_Schaefer3@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=400, Linemsg=HTTP/1.1 400 Bad Request, Scenario=CharFirstName}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Reginald, LastName=sause, Phno=9183618483, Email=, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=400, Linemsg=HTTP/1.1 400 Bad Request, Scenario=EmailEmpty}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.DeleteUserByFNameTest()'><b>DeleteUserByFNameTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=405, Linemsg=HTTP/1.1 405 Method Not Allowed, Scenario=IncorrectEndPoint}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Reginald, LastName=sause, Phno=9183618476, Email=BarthoPatt_Schaefer2@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=200, Linemsg=HTTP/1.1 200 OK, Scenario=AlreadyExisting}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Reginald, LastName=sause, Phno=9183618486, Email=BarthoPatt_Schaefer15@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Reginald, LastName=sause12, Phno=9183618479, Email=BarthoPatt_Schaefer5@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=400, Linemsg=HTTP/1.1 400 Bad Request, Scenario=NumericLastname}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.CreateUser()'><b>CreateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Kripa, LastName=Lkumar, Phno=7357950300, Email=Kripa@gmail.com, Plot=P1-58, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetUserById()'><b>GetUserById</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.CreateUser()'><b>CreateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Puttuna, LastName=Kanagal, Phno=7357950303, Email=PuttuK@gmail.com, Plot=P1-61, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectBaseURL}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.GetAllUsersTest()'><b>GetAllUsersTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=404, Linemsg=HTTP/1.1 404 Not Found, Scenario=IncorrectEndPoint}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.DeleteUserByFNameTest()'><b>DeleteUserByFNameTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=200, Linemsg= HTTP/1.1 200 OK, Scenario=Valid}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.CreateUser()'><b>CreateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Liya, LastName=Brad, Phno=7357950302, Email=Leah@gmail.com, Plot=P1-59, Street=santaclara, State=NJ, Country=USA, Zip=65432, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Reginald, LastName=sause, Phno=, Email=BarthoPatt_Schaefer12@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=400, Linemsg=HTTP/1.1 400 Bad Request, Scenario=EmptyPhone}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Reginald, LastName=sause, Phno=9183618485, Email=BarthoPatt_Schaefer14@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyPswd}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.DeleteUserByIdTest()'><b>DeleteUserByIdTest</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=EmptyUsr}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
+<tr>
+<td title='testCases.SwaggerAPI.UpdateUser()'><b>UpdateUser</b><br>Test class: testCases.SwaggerAPI<br>Parameters: {FirstName=Reginald, LastName=sause, Phno=9183618487, Email=BarthoPatt_Schaefer16@hotmail.com, Plot=10A-01, Street=santarita, State=texas, Country=USA, Zip=98765, Code=401, Linemsg=HTTP/1.1 401 Unauthorized, Scenario=NoAuth}</td>
+<td></td>
+<td>0</td>
+<td>testCases.SwaggerAPI@906d29b</td></tr>
 </table><p>
 </body>
 </html>

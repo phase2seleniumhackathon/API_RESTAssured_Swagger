@@ -5,7 +5,7 @@
     <classes>
       <class name="testCases.SwaggerAPI">
         <methods>
-          <include name="CreateUser" invocation-numbers="0 7"/>
+          <include name="GetUserById" invocation-numbers="4"/>
           <include name="setupExcel"/>
           <include name="closeExcel"/>
         </methods>
